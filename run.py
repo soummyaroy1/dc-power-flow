@@ -1,15 +1,12 @@
-#Import NumPy and bus and branch data
 import numpy as np
 bus = np.loadtxt('bus.txt', delimiter = ',', skiprows = 1, dtype = float)
 branch = np.loadtxt('branch.txt', delimiter = ',', skiprows = 1, dtype = float)
-
 
 n = np.shape(bus)       #Find number of buses
 n = n[0]                #Find number of buses
 
 m = np.shape(branch)    #Find number of branches
 m = m[0]                #Find number of branches
-
 
 p = bus[:,1,None] - bus[:,2,None]   #Solve for net power at each bus
 
