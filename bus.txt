@@ -1,0 +1,5 @@
+Bus Number, Per Unit Gen, Per Unit Load
+1,2,0
+2,2,1
+3,0,4
+4,1,0
