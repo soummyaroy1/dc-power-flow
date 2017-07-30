@@ -21,7 +21,6 @@ Bus Number, Per Unit Gen, Per Unit Load
 **branch.txt** should be formatted as such:
 
 ```
-Bus Number, Per Unit Gen, Per Unit Load
 From Bus, To Bus, Branch Suceptance
 1,2,-10
 1,3,-10
