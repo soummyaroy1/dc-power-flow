@@ -1,6 +1,6 @@
 # Info
 
-This is a simple DC power-flow calculator for a N-bus/N-branch system. DC power-flow studies are an alternative to more precise but intensive methods like Newton-Raphson or Gauss-Seidal. This makes them perfect for lightweight realtime calculations, in which you are only concerned about detecting thermal violations. This script is based on the methodology found in the following paper, orginally authored by Iowa State University's Jim McCalley:
+This is a simple DC power-flow calculator for a N-bus/N-branch system. DC power-flow studies are an alternative to more precise but intensive methods like Newton-Raphson or Gauss-Seidal. This makes them perfect for lightweight realtime calculations, in which you are only concerned about detecting thermal violations. This script is based on the methodology found in the following paper, orginally authored by Iowa State University's Dr. Jim McCalley:
 
 http://home.engineering.iastate.edu/~jdm/ee553/DCPowerFlowEquations.pdf
 
